@@ -72,12 +72,12 @@ p,li{max-width:75ch}
 .welcome-hero h1,.welcome-hero p,.intro-copy p{max-width:75ch !important}
 .welcome-hero svg,.welcome-diagram svg{max-width:100%;height:auto}
 
-.scope-box{background:linear-gradient(180deg,#101a2c 0%,#0d1728 100%) !important;border:1px solid #28415f !important;border-radius:16px;padding:18px 20px;margin:0 0 24px;color:var(--text);max-width:72ch;box-shadow:inset 0 0 0 1px rgba(255,255,255,.02)}
+.scope-box{background:linear-gradient(180deg,#121b2f 0%,#0e1728 100%) !important;border:1px solid #33527a !important;border-left:4px solid #60a5fa !important;border-radius:16px;padding:16px 18px;margin:6px 0 22px;color:var(--text);max-width:68ch;box-shadow:0 10px 24px rgba(0,0,0,.14), inset 0 0 0 1px rgba(255,255,255,.02)}
 .scope-kicker{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#93c5fd;font-weight:800;margin-bottom:8px}
-.scope-title{font-size:22px;line-height:1.2;font-weight:750;color:#f5f7fb;margin:0 0 12px}
-.scope-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 20px}
-.scope-item strong{display:block;color:#dbeafe;font-size:14px;margin-bottom:4px}
-.scope-item p{margin:0;color:#c7d2e1;font-size:14px;line-height:1.55;max-width:none}
+.scope-title{font-size:20px;line-height:1.2;font-weight:750;color:#f5f7fb;margin:0 0 10px}
+.scope-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 18px}
+.scope-item strong{display:block;color:#dbeafe;font-size:13px;margin-bottom:3px}
+.scope-item p{margin:0;color:#c7d2e1;font-size:13px;line-height:1.5;max-width:none}
 @media (max-width: 900px){.scope-grid{grid-template-columns:1fr}.scope-box{padding:16px}}
 svg text{font-family:Arial,sans-serif}
 @media (max-width: 900px){.app{grid-template-columns:1fr}.sidebar{position:static;height:auto;border-right:none;border-bottom:1px solid var(--border)}.main{max-width:none}}
@@ -721,7 +721,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
       <h1 class="mod-title">The ILS Elements</h1>
       <p class="mod-desc">ILS consists of a number of sub-elements that together cover everything required to support a system throughout operations.</p>
       <table class="ils-table">
-        <thead><tr><th>Element</th><th>Beskrivning</th><th>Relevance for technical writer</th></tr></thead>
+        <thead><tr><th>Element</th><th>Description</th><th>Relevance for technical writer</th></tr></thead>
         <tbody>
           <tr><td>Maintenance planning</td><td>Analysis of how the system is maintained, at which levels and by whom.</td><td>High — drives documentation requirements</td></tr>
           <tr><td>Technical documentation</td><td>All information required for operation, maintenance and repair.</td><td>Direct — core task</td></tr>
@@ -845,7 +845,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
       </div>
       <div class="card"><div class="card-title">📋 Typical deliverables</div>
         <table class="ils-table" style="margin:10px 0 0">
-          <thead><tr><th>Dokument</th><th>Abbreviation</th><th>Syfte</th></tr></thead>
+          <thead><tr><th>Document</th><th>Abbreviation</th><th>Purpose</th></tr></thead>
           <tbody>
             <tr><td>Technical Manual</td><td>TM</td><td>Operations and maintenance instructions</td></tr>
             <tr><td>Illustrated Parts Breakdown</td><td>IPB</td><td>Illustrated spare parts list</td></tr>
@@ -871,11 +871,11 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
               <tr><td>2</td><td>Loosen 4× M6 screws on the TRM panel</td><td>1 tech.</td><td>3 min</td><td>Torque wrench SAB-TOOL-442 (8 Nm)</td><td>—</td></tr>
               <tr><td>3</td><td>Disconnect connectors J3 and J4</td><td>1 tech.</td><td>2 min</td><td>ESD wristband mandatory</td><td>⚡ ESD risk</td></tr>
               <tr><td>4</td><td>Carefully lift TRM out of chassis</td><td>1 tech.</td><td>2 min</td><td>—</td><td>🔋 7 kg — lifting assistance recommended</td></tr>
-              <tr><td>5</td><td>Install new TRM, connect J3/J4, torque screws</td><td>1 tech.</td><td>5 min</td><td>Momentnyckel SAB-TOOL-442</td><td>—</td></tr>
-              <tr><td>6</td><td>Start system and run BITE test (sequence BIT-04)</td><td>1 tech.</td><td>5 min</td><td>BITE-konsol</td><td>—</td></tr>
+              <tr><td>5</td><td>Install new TRM, connect J3/J4, torque screws</td><td>1 tech.</td><td>5 min</td><td>Torque wrench SAB-TOOL-442</td><td>—</td></tr>
+              <tr><td>6</td><td>Start system and run BITE test (sequence BIT-04)</td><td>1 tech.</td><td>5 min</td><td>BITE console</td><td>—</td></tr>
             </tbody>
           </table>
-          <p style="font-size:0.74rem;color:var(--text-dim);margin-top:10px;font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;">Total tid: ~18 min &nbsp;|&nbsp; Personal: 1 tech. (F-level authorisation) &nbsp;|&nbsp; Ref: LSAR Task ID ARTHmk2-F-TRM-001</p>
+          <p style="font-size:0.74rem;color:var(--text-dim);margin-top:10px;font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;">Total time: ~18 min &nbsp;|&nbsp; Personnel: 1 tech. (F-level authorisation) &nbsp;|&nbsp; Ref: LSAR Task ID ARTHmk2-F-TRM-001</p>
         </div>
       </div>
       <div class="highlight"><strong>Important:</strong> Documentation requirements are defined early in a <em>Data Management Plan</em> (DMP) or <em>Contract Data Requirements List</em> (CDRL). Make sure you are involved in these requirement discussions!</div>
@@ -913,7 +913,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
           <tr><td>ASD STE-100</td><td>Language</td><td>Simplified Technical English — controlled language for international readability</td></tr>
           <tr><td>MIL-HDBK-502</td><td>Acquisition (USA)</td><td>Handbook for logistics support in the acquisition process</td></tr>
           <tr><td>DEF STAN 00-60</td><td>ILS (UK)</td><td>British defence standard for ILS</td></tr>
-          <tr><td>ISO 10303 (STEP)</td><td>Produktdata</td><td>Standard for exchange of product data (CAD/PDM)</td></tr>
+          <tr><td>ISO 10303 (STEP)</td><td>Product data</td><td>Standard for exchange of product data (CAD/PDM)</td></tr>
           <tr><td>ATA Spec 2200</td><td>Luftfart</td><td>Structure for civil aircraft technical documentation</td></tr>
         </tbody>
       </table>
