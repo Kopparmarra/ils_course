@@ -72,12 +72,12 @@ p,li{max-width:75ch}
 .welcome-hero h1,.welcome-hero p,.intro-copy p{max-width:75ch !important}
 .welcome-hero svg,.welcome-diagram svg{max-width:100%;height:auto}
 
-.scope-box{background:linear-gradient(180deg,#121b2f 0%,#0e1728 100%) !important;border:1px solid #33527a !important;border-left:4px solid #60a5fa !important;border-radius:16px;padding:16px 18px;margin:6px 0 22px;color:var(--text);max-width:68ch;box-shadow:0 10px 24px rgba(0,0,0,.14), inset 0 0 0 1px rgba(255,255,255,.02)}
+.scope-box{background:linear-gradient(180deg,#101a2c 0%,#0d1728 100%) !important;border:1px solid #28415f !important;border-radius:16px;padding:18px 20px;margin:0 0 24px;color:var(--text);max-width:72ch;box-shadow:inset 0 0 0 1px rgba(255,255,255,.02)}
 .scope-kicker{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#93c5fd;font-weight:800;margin-bottom:8px}
-.scope-title{font-size:20px;line-height:1.2;font-weight:750;color:#f5f7fb;margin:0 0 10px}
-.scope-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 18px}
-.scope-item strong{display:block;color:#dbeafe;font-size:13px;margin-bottom:3px}
-.scope-item p{margin:0;color:#c7d2e1;font-size:13px;line-height:1.5;max-width:none}
+.scope-title{font-size:22px;line-height:1.2;font-weight:750;color:#f5f7fb;margin:0 0 12px}
+.scope-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 20px}
+.scope-item strong{display:block;color:#dbeafe;font-size:14px;margin-bottom:4px}
+.scope-item p{margin:0;color:#c7d2e1;font-size:14px;line-height:1.55;max-width:none}
 @media (max-width: 900px){.scope-grid{grid-template-columns:1fr}.scope-box{padding:16px}}
 svg text{font-family:Arial,sans-serif}
 @media (max-width: 900px){.app{grid-template-columns:1fr}.sidebar{position:static;height:auto;border-right:none;border-bottom:1px solid var(--border)}.main{max-width:none}}
@@ -721,7 +721,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
       <h1 class="mod-title">The ILS Elements</h1>
       <p class="mod-desc">ILS consists of a number of sub-elements that together cover everything required to support a system throughout operations.</p>
       <table class="ils-table">
-        <thead><tr><th>Element</th><th>Description</th><th>Relevance for technical writer</th></tr></thead>
+        <thead><tr><th>Element</th><th>Beskrivning</th><th>Relevance for technical writer</th></tr></thead>
         <tbody>
           <tr><td>Maintenance planning</td><td>Analysis of how the system is maintained, at which levels and by whom.</td><td>High — drives documentation requirements</td></tr>
           <tr><td>Technical documentation</td><td>All information required for operation, maintenance and repair.</td><td>Direct — core task</td></tr>
@@ -845,7 +845,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
       </div>
       <div class="card"><div class="card-title">📋 Typical deliverables</div>
         <table class="ils-table" style="margin:10px 0 0">
-          <thead><tr><th>Document</th><th>Abbreviation</th><th>Purpose</th></tr></thead>
+          <thead><tr><th>Dokument</th><th>Abbreviation</th><th>Syfte</th></tr></thead>
           <tbody>
             <tr><td>Technical Manual</td><td>TM</td><td>Operations and maintenance instructions</td></tr>
             <tr><td>Illustrated Parts Breakdown</td><td>IPB</td><td>Illustrated spare parts list</td></tr>
@@ -871,11 +871,11 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
               <tr><td>2</td><td>Loosen 4× M6 screws on the TRM panel</td><td>1 tech.</td><td>3 min</td><td>Torque wrench SAB-TOOL-442 (8 Nm)</td><td>—</td></tr>
               <tr><td>3</td><td>Disconnect connectors J3 and J4</td><td>1 tech.</td><td>2 min</td><td>ESD wristband mandatory</td><td>⚡ ESD risk</td></tr>
               <tr><td>4</td><td>Carefully lift TRM out of chassis</td><td>1 tech.</td><td>2 min</td><td>—</td><td>🔋 7 kg — lifting assistance recommended</td></tr>
-              <tr><td>5</td><td>Install new TRM, connect J3/J4, torque screws</td><td>1 tech.</td><td>5 min</td><td>Torque wrench SAB-TOOL-442</td><td>—</td></tr>
-              <tr><td>6</td><td>Start system and run BITE test (sequence BIT-04)</td><td>1 tech.</td><td>5 min</td><td>BITE console</td><td>—</td></tr>
+              <tr><td>5</td><td>Install new TRM, connect J3/J4, torque screws</td><td>1 tech.</td><td>5 min</td><td>Momentnyckel SAB-TOOL-442</td><td>—</td></tr>
+              <tr><td>6</td><td>Start system and run BITE test (sequence BIT-04)</td><td>1 tech.</td><td>5 min</td><td>BITE-konsol</td><td>—</td></tr>
             </tbody>
           </table>
-          <p style="font-size:0.74rem;color:var(--text-dim);margin-top:10px;font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;">Total time: ~18 min &nbsp;|&nbsp; Personnel: 1 tech. (F-level authorisation) &nbsp;|&nbsp; Ref: LSAR Task ID ARTHmk2-F-TRM-001</p>
+          <p style="font-size:0.74rem;color:var(--text-dim);margin-top:10px;font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;">Total tid: ~18 min &nbsp;|&nbsp; Personal: 1 tech. (F-level authorisation) &nbsp;|&nbsp; Ref: LSAR Task ID ARTHmk2-F-TRM-001</p>
         </div>
       </div>
       <div class="highlight"><strong>Important:</strong> Documentation requirements are defined early in a <em>Data Management Plan</em> (DMP) or <em>Contract Data Requirements List</em> (CDRL). Make sure you are involved in these requirement discussions!</div>
@@ -913,7 +913,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
           <tr><td>ASD STE-100</td><td>Language</td><td>Simplified Technical English — controlled language for international readability</td></tr>
           <tr><td>MIL-HDBK-502</td><td>Acquisition (USA)</td><td>Handbook for logistics support in the acquisition process</td></tr>
           <tr><td>DEF STAN 00-60</td><td>ILS (UK)</td><td>British defence standard for ILS</td></tr>
-          <tr><td>ISO 10303 (STEP)</td><td>Product data</td><td>Standard for exchange of product data (CAD/PDM)</td></tr>
+          <tr><td>ISO 10303 (STEP)</td><td>Produktdata</td><td>Standard for exchange of product data (CAD/PDM)</td></tr>
           <tr><td>ATA Spec 2200</td><td>Luftfart</td><td>Structure for civil aircraft technical documentation</td></tr>
         </tbody>
       </table>
@@ -1023,7 +1023,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
       </div>
       <div class="highlight"><strong>For the technical writer:</strong> LSA outputs (in the form of LSAR data — LSA Record) are your primary input. They tell you exactly which maintenance tasks must be described in your manuals.</div>
       <div class="card"><div class="card-title">⚖️ What is LORA?</div>
-        <p><strong style="color:var(--text)">LORA (Level of Repair Analysis)</strong> is an economic and operational analysis that determines <em>var</em> a component is to be repaired — in the field, in a workshop, or discarded and replaced.</p>
+        <p><strong style="color:var(--text)">LORA (Level of Repair Analysis)</strong> is an economic and operational analysis that determines <em>where</em> a component is to be repaired — in the field, in a workshop, or discarded and replaced.</p>
         <p>LORA weighs costs, availability, skill requirements and operational needs against each other for every replaceable unit (LRU/SRU).</p>
       </div>
       <div class="def-grid">
@@ -1111,7 +1111,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
       <p class="mod-desc">Configuration Management (CM) ensures documentation always reflects the actual system — a core competency for all technical writers.</p>
       <div class="card"><div class="card-title">⚙️ What is Configuration Management?</div>
         <p><strong style="color:var(--text)">Configuration Management (CM)</strong> is the discipline that identifies, documents and controls the functional and physical characteristics of a system throughout its entire lifecycle.</p>
-        <p>For the technical writer this means documentation must always match the actual system configuration — correct version, correct revision, correct applicability.</p>
+        <p>For the technical writer this means documentation must always match the actual system configuration — correct version, correct revision, correct giltighet/applicability.</p>
       </div>
       <h3 style="margin:22px 0 10px;font-size:0.88rem;color:var(--text-muted);font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;text-transform:uppercase;letter-spacing:0.08em;">The four CM activities</h3>
       <div class="cm-flow">
@@ -1200,7 +1200,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
         <ul>
           <li>You receive a <strong>Change Notice</strong> with a new drawing and updated LSAR record.</li>
           <li>Maintenance Manual, F-level (DM for LRU replacement of TRM) must be revised — steps 3–7 of the installation procedure change.</li>
-          <li>IPB updated — three part numbers for fan components are replaced with new Saab P/Ns.</li>
+          <li>IPB uppdateras — tre artikelnummer för fläktkomponenter ersätts med nya Saab P/N.</li>
           <li>In Saab's CSDB, affected Data Modules are set to <code style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;color:var(--accent);font-size:0.8rem">inwork</code> — you revise it, and a new <code style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;color:var(--accent);font-size:0.8rem">issue</code> publiceras efter granskning.</li>
         </ul>
       </div>
@@ -1423,7 +1423,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
           <div class="quiz-options" id="pf6-opts">
             <div class="quiz-opt" onclick="provAnswer(this,'pf6',false)"><span class="opt-letter">A</span> A new project starting</div>
             <div class="quiz-opt" onclick="provAnswer(this,'pf6',false)"><span class="opt-letter">B</span> The technical writer changing employer</div>
-            <div class="quiz-opt" onclick="provAnswer(this,'pf6',true)"><span class="opt-letter">C</span> An approved ECP (Engineering Change Proposal)</div>
+            <div class="quiz-opt" onclick="provAnswer(this,'pf6',true)"><span class="opt-letter">C</span> En godkänd ECP (Engineering Change Proposal)</div>
             <div class="quiz-opt" onclick="provAnswer(this,'pf6',false)"><span class="opt-letter">D</span> A LORA analysis being initiated</div>
           </div>
           <div class="quiz-feedback" id="pf6-fb"></div>
@@ -1994,10 +1994,10 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
 <div class="screen" id="screen-6">
       <div class="mod-tag">MODUL 6 / 8</div>
       <h1 class="mod-title">Konfigurationshantering</h1>
-      <p class="mod-desc">Konfigurationshantering (CM) ensures documentation always reflects the actual system — a core competency for all technical writers.</p>
-      <div class="card"><div class="card-title">⚙️ What is Konfigurationshantering?</div>
-        <p><strong style="color:var(--text)">Konfigurationshantering (CM)</strong> is the discipline that identifies, documents and controls the functional and physical characteristics of a system throughout its entire lifecycle.</p>
-        <p>För teknikinformatören innebär det att dokumentation alltid måste matcha den faktiska systemkonfigurationen — rätt version, rätt revision, rätt applicability.</p>
+      <p class="mod-desc">Konfigurationshantering (CM) säkerställer att dokumentationen alltid speglar det faktiska systemet — en kärnkompetens för alla teknikinformatörer.</p>
+      <div class="card"><div class="card-title">⚙️ Vad är konfigurationshantering?</div>
+        <p><strong style="color:var(--text)">Konfigurationshantering (CM)</strong> är den disciplin som identifierar, dokumenterar och styr ett systems funktionella och fysiska egenskaper genom hela dess livscykel.</p>
+        <p>För teknikinformatören innebär det att dokumentation alltid måste matcha den faktiska systemkonfigurationen — rätt version, rätt revision, rätt giltighet/applicability.</p>
       </div>
       <h3 style="margin:22px 0 10px;font-size:0.88rem;color:var(--text-muted);font-family:'DM Mono',monospace;text-transform:uppercase;letter-spacing:0.08em;">De fyra CM-aktiviteterna</h3>
       <div class="cm-flow">
@@ -2062,8 +2062,8 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
         <table class="ils-table" style="margin:10px 0 0">
           <thead><tr><th>Händelse</th><th>CM-åtgärd</th><th>Dokumentationspåverkan</th></tr></thead>
           <tbody>
-            <tr><td>New ECP godkänns</td><td>Baseline uppdateras</td><td>Berörda DM/TM revideras</td></tr>
-            <tr><td>Reservdel byts ut</td><td>Artikelnummer uppdateras i CI-förteckning</td><td>IPB updated</td></tr>
+            <tr><td>Ny ECP godkänns</td><td>Baseline uppdateras</td><td>Berörda DM/TM revideras</td></tr>
+            <tr><td>Reservdel byts ut</td><td>Artikelnummer uppdateras i CI-förteckning</td><td>IPB uppdateras</td></tr>
             <tr><td>Ny mjukvaruversion</td><td>SW-baseline uppdateras</td><td>Operatörsmanualer och FIM ses över</td></tr>
             <tr><td>Underhållsprocedur ändras</td><td>LSAR-data uppdateras</td><td>TM/MTA revideras</td></tr>
           </tbody>
@@ -2080,21 +2080,21 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
         <div class="quiz-feedback" id="q6-fb"></div>
       </div>
       <div class="case-box">
-        <div class="case-box-header"><span class="case-badge">📡 Saab Case — ARTHUR Mk II</span><span class="case-title">Konfigurationshantering in the Radar Project</span></div>
+        <div class="case-box-header"><span class="case-badge">📡 Saab Case — ARTHUR Mk II</span><span class="case-title">Konfigurationshantering i radarprojektet</span></div>
         <p>Under ARTHUR Mk II-projektet inträffar följande CM-händelse: Saabs konstruktionsavdelning godkänner en <strong style="color:var(--accent)">ECP (Engineering Change Proposal)</strong> för sändarmodulens kylning — en ny fläktdesign med 40% bättre kyling och förändrad monteringsordning.</p>
         <p>Som teknikinformatör innebär detta för dig:</p>
         <ul>
           <li>Du får en <strong>Change Notice</strong> med ny ritning och uppdaterad LSAR-post.</li>
-          <li>Maintenance Manual, F-nivå (DM for LRU-byte of TRM) must be revised — steps 3–7 of the installation procedure change.</li>
-          <li>IPB updated — three part numbers for fan components are replaced with new Saab P/Ns.</li>
-          <li>In Saab's CSDB, affected Data Modules are set to <code style="font-family:'DM Mono',monospace;color:var(--accent);font-size:0.8rem">inwork</code> — you revise it, and a new <code style="font-family:'DM Mono',monospace;color:var(--accent);font-size:0.8rem">issue</code> publiceras efter granskning.</li>
+          <li>Maintenance Manual på F-nivå (DM för LRU-byte av TRM) måste revideras — steg 3–7 i installationsproceduren ändras.</li>
+          <li>IPB uppdateras — tre artikelnummer för fläktkomponenter ersätts med nya Saab P/N.</li>
+          <li>I Saabs CSDB sätts berörda Data Modules till <code style="font-family:'DM Mono',monospace;color:var(--accent);font-size:0.8rem">inwork</code> — du reviderar dem och en ny <code style="font-family:'DM Mono',monospace;color:var(--accent);font-size:0.8rem">issue</code> publiceras efter granskning.</li>
         </ul>
       </div>
-            <div class="nav-btns"><button class="btn btn-secondary" data-go="5" onclick="navigateTo(5)">← Tillbaka</button><button class="btn btn-primary" data-complete-from="6" data-go="7" onclick="completeAndGoto(6,7)">Next: IETP &amp; verktyg →</button></div>
+            <div class="nav-btns"><button class="btn btn-secondary" data-go="5" onclick="navigateTo(5)">← Tillbaka</button><button class="btn btn-primary" data-complete-from="6" data-go="7" onclick="completeAndGoto(6,7)">Nästa: IETP &amp; verktyg →</button></div>
     </div>
 <div class="screen" id="screen-7">
       <div class="mod-tag">MODUL 7 / 8</div>
-      <h1 class="mod-title">IETP &amp; authoring tools</h1>
+      <h1 class="mod-title">IETP &amp; verktyg</h1>
       <p class="mod-desc">Modern teknisk dokumentation är digital och interaktiv. Förstå vad IETP innebär och vilka verktyg teknikinformatörer arbetar med idag.</p>
       <div class="card"><div class="card-title">💻 Vad är en IETP?</div>
         <p><strong style="color:var(--text)">IETP (Interactive Electronic Technical Publication)</strong> is a digital, interactive technical publication that replaces paper-based manuals. An IETP can filter content by configuration, display 3D models, link spare parts to drawings and guide technicians step by step.</p>
@@ -2309,7 +2309,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
           <div class="quiz-options" id="pf6-opts">
             <div class="quiz-opt" onclick="provAnswer(this,'pf6',false)"><span class="opt-letter">A</span> Att ett nytt projekt startar</div>
             <div class="quiz-opt" onclick="provAnswer(this,'pf6',false)"><span class="opt-letter">B</span> Att teknikinformatören byter arbetsgivare</div>
-            <div class="quiz-opt" onclick="provAnswer(this,'pf6',true)"><span class="opt-letter">C</span> An approved ECP (Engineering Change Proposal)</div>
+            <div class="quiz-opt" onclick="provAnswer(this,'pf6',true)"><span class="opt-letter">C</span> En godkänd ECP (Engineering Change Proposal)</div>
             <div class="quiz-opt" onclick="provAnswer(this,'pf6',false)"><span class="opt-letter">D</span> En LORA-analys påbörjas</div>
           </div>
           <div class="quiz-feedback" id="pf6-fb"></div>
