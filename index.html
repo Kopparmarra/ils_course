@@ -71,6 +71,14 @@ p,li{max-width:75ch}
 .welcome-hero,.intro-grid,.intro-copy,.welcome-side,.welcome-diagram,.intro-footer-note,.hero-badge-row{display:block !important;max-width:none !important;width:auto !important}
 .welcome-hero h1,.welcome-hero p,.intro-copy p{max-width:75ch !important}
 .welcome-hero svg,.welcome-diagram svg{max-width:100%;height:auto}
+
+.scope-box{background:linear-gradient(180deg,#101a2c 0%,#0d1728 100%) !important;border:1px solid #28415f !important;border-radius:16px;padding:18px 20px;margin:0 0 24px;color:var(--text);max-width:72ch;box-shadow:inset 0 0 0 1px rgba(255,255,255,.02)}
+.scope-kicker{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#93c5fd;font-weight:800;margin-bottom:8px}
+.scope-title{font-size:22px;line-height:1.2;font-weight:750;color:#f5f7fb;margin:0 0 12px}
+.scope-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 20px}
+.scope-item strong{display:block;color:#dbeafe;font-size:14px;margin-bottom:4px}
+.scope-item p{margin:0;color:#c7d2e1;font-size:14px;line-height:1.55;max-width:none}
+@media (max-width: 900px){.scope-grid{grid-template-columns:1fr}.scope-box{padding:16px}}
 svg text{font-family:Arial,sans-serif}
 @media (max-width: 900px){.app{grid-template-columns:1fr}.sidebar{position:static;height:auto;border-right:none;border-bottom:1px solid var(--border)}.main{max-width:none}}
 
@@ -608,6 +616,16 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
         <h1>ILS Fundamentals for Technical Writers</h1>
         <div class="version-meta"><strong>Version 1.0</strong>Last updated March 2026</div>
         <p class="subtitle">An interactive learning project created to explore the fundamentals of ILS — covering LSA/LORA, configuration management, IETP tools, and maintenance levels.</p>
+        <div class="scope-box">
+          <div class="scope-kicker">About this course</div>
+          <div class="scope-title">Course scope</div>
+          <div class="scope-grid">
+            <div class="scope-item"><strong>Document scope</strong><p>This course provides a practical introduction to Integrated Logistics Support (ILS) for technical writers and related roles.</p></div>
+            <div class="scope-item"><strong>Target audience</strong><p>Technical writers, junior ILS practitioners, and engineers who want a structured overview of the ILS domain.</p></div>
+            <div class="scope-item"><strong>Assumptions</strong><p>The course assumes a general technical background, but no prior experience in ILS.</p></div>
+            <div class="scope-item"><strong>Limitations</strong><p>This is a simplified learning project. It does not replace formal standards, customer requirements, or project-specific ILS documentation.</p></div>
+          </div>
+        </div>
         <div class="module-overview">
           <div class="ov-card" onclick="navigateTo(1)" data-go="1"><div class="ov-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 7l8 4 8-4-8-4Z"/><path d="M4 7v10l8 4 8-4V7"/><path d="M12 11v10"/></svg></div><div class="ov-title">What is ILS?</div><div class="ov-num">MODULE 1</div></div>
           <div class="ov-card" onclick="navigateTo(2)" data-go="2"><div class="ov-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 6.5a4 4 0 0 0 3.8 5.2l-8.6 8.6a2 2 0 1 1-2.8-2.8l8.6-8.6a4 4 0 0 1 5.2-3.8l-3 3 .4 2.4 2.4.4 3-3a4 4 0 0 1-3.8 5.2"/></svg></div><div class="ov-title">The ILS Elements</div><div class="ov-num">MODULE 2</div></div>
@@ -1484,6 +1502,16 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
         <h1>ILS-grunder för teknikinformatörer</h1>
         <div class="version-meta"><strong>Version 1.0</strong>Senast uppdaterad mars 2026</div>
         <p class="subtitle">Ett interaktivt utbildningsprojekt om grunderna i ILS — med fokus på LSA/LORA, konfigurationshantering, IETP-verktyg och underhållsnivåer.</p>
+        <div class="scope-box">
+          <div class="scope-kicker">Om kursen</div>
+          <div class="scope-title">Kursens omfattning</div>
+          <div class="scope-grid">
+            <div class="scope-item"><strong>Omfattning</strong><p>Den här kursen ger en praktisk introduktion till Integrated Logistics Support (ILS) för teknikinformatörer och närliggande roller.</p></div>
+            <div class="scope-item"><strong>Målgrupp</strong><p>Teknikinformatörer, juniora ILS-praktiker och ingenjörer som vill ha en strukturerad översikt av ILS-området.</p></div>
+            <div class="scope-item"><strong>Förkunskaper</strong><p>Kursen förutsätter en allmän teknisk bakgrund, men ingen tidigare erfarenhet av ILS.</p></div>
+            <div class="scope-item"><strong>Avgränsning</strong><p>Det här är ett förenklat lärprojekt. Det ersätter inte formella standarder, kundkrav eller projektspecifik ILS-dokumentation.</p></div>
+          </div>
+        </div>
         <div class="module-overview">
           <div class="ov-card" onclick="navigateTo(1)" data-go="1"><div class="ov-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 7l8 4 8-4-8-4Z"/><path d="M4 7v10l8 4 8-4V7"/><path d="M12 11v10"/></svg></div><div class="ov-title">Vad är ILS?</div><div class="ov-num">MODUL 1</div></div>
           <div class="ov-card" onclick="navigateTo(2)" data-go="2"><div class="ov-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 6.5a4 4 0 0 0 3.8 5.2l-8.6 8.6a2 2 0 1 1-2.8-2.8l8.6-8.6a4 4 0 0 1 5.2-3.8l-3 3 .4 2.4 2.4.4 3-3a4 4 0 0 1-3.8 5.2"/></svg></div><div class="ov-title">ILS-elementen</div><div class="ov-num">MODUL 2</div></div>
