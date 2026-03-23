@@ -592,7 +592,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
           <div class="sidebar-brand-title" id="hdr-title">ILS Fundamentals</div>
           <div class="sidebar-brand-sub" id="hdr-sub">Integrated Logistics Support — for Technical Writers</div>
         </div>
-        <button id="lang-toggle" onclick="toggleLang()" style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;background:rgba(255,255,255,.04);border:1px solid var(--border);color:var(--text);padding:7px 12px;border-radius:999px;cursor:pointer;">SV</button><button class="mobile-icon-btn" onclick="closeMenu()" style="display:none" id="mobile-close-inside">Stäng</button>
+        <button id="lang-toggle" onclick="toggleLang()" style="font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;background:rgba(255,255,255,.04);border:1px solid var(--border);color:var(--text);padding:7px 12px;border-radius:999px;cursor:pointer;">SV</button><button class="mobile-icon-btn" onclick="closeMenu()" style="display:none" id="mobile-close-inside">Close</button>
       </div>
     </div>
     <div class="sidebar-section">COURSE</div>
@@ -845,7 +845,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
       </div>
       <div class="card"><div class="card-title">📋 Typical deliverables</div>
         <table class="ils-table" style="margin:10px 0 0">
-          <thead><tr><th>Dokument</th><th>Abbreviation</th><th>Syfte</th></tr></thead>
+          <thead><tr><th>Document</th><th>Abbreviation</th><th>Purpose</th></tr></thead>
           <tbody>
             <tr><td>Technical Manual</td><td>TM</td><td>Operations and maintenance instructions</td></tr>
             <tr><td>Illustrated Parts Breakdown</td><td>IPB</td><td>Illustrated spare parts list</td></tr>
@@ -1034,11 +1034,11 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
       </div>
       <h3 style="margin:22px 0 10px;font-size:0.88rem;color:var(--text-muted);font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;text-transform:uppercase;letter-spacing:0.08em;">The LORA process step by step</h3>
       <div class="lora-flow">
-        <div class="lora-step"><span class="lora-num">STEG 1</span><span class="lora-text"><strong>Identify LRU/SRU</strong> — define all replaceable units in the system.</span></div>
-        <div class="lora-step"><span class="lora-num">STEG 2</span><span class="lora-text"><strong>Failure analysis (FMEA)</strong> — identify failure modes and effects for each component.</span></div>
-        <div class="lora-step"><span class="lora-num">STEG 3</span><span class="lora-text"><strong>Cost comparison</strong> — compare repair costs at O/F/D level against discard.</span></div>
-        <div class="lora-step"><span class="lora-num">STEG 4</span><span class="lora-text"><strong>Operational factors</strong> — weigh in criticality, availability requirements and operational environment.</span></div>
-        <div class="lora-step"><span class="lora-num">STEG 5</span><span class="lora-text"><strong>LORA decision</strong> — establish maintenance level per component → drives documentation and training.</span></div>
+        <div class="lora-step"><span class="lora-num">STEP 1</span><span class="lora-text"><strong>Identify LRU/SRU</strong> — define all replaceable units in the system.</span></div>
+        <div class="lora-step"><span class="lora-num">STEP 2</span><span class="lora-text"><strong>Failure analysis (FMEA)</strong> — identify failure modes and effects for each component.</span></div>
+        <div class="lora-step"><span class="lora-num">STEP 3</span><span class="lora-text"><strong>Cost comparison</strong> — compare repair costs at O/F/D level against discard.</span></div>
+        <div class="lora-step"><span class="lora-num">STEP 4</span><span class="lora-text"><strong>Operational factors</strong> — weigh in criticality, availability requirements and operational environment.</span></div>
+        <div class="lora-step"><span class="lora-num">STEP 5</span><span class="lora-text"><strong>LORA decision</strong> — establish maintenance level per component → drives documentation and training.</span></div>
       </div>
 
       <div class="artifact-box">
@@ -1200,8 +1200,13 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
         <ul>
           <li>You receive a <strong>Change Notice</strong> with a new drawing and updated LSAR record.</li>
           <li>Maintenance Manual, F-level (DM for LRU replacement of TRM) must be revised — steps 3–7 of the installation procedure change.</li>
+<<<<<<< HEAD
           <li>IPB uppdateras — tre artikelnummer för fläktkomponenter ersätts med nya Saab P/N.</li>
           <li>In Saab's CSDB, affected Data Modules are set to <code style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;color:var(--accent);font-size:0.8rem">inwork</code> — you revise it, and a new <code style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;color:var(--accent);font-size:0.8rem">issue</code> published after review.</li>
+=======
+          <li>IPB is updated — three part numbers for fan components are replaced with new Saab P/Ns.</li>
+          <li>In Saab's CSDB, affected Data Modules are set to <code style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;color:var(--accent);font-size:0.8rem">inwork</code> — you revise it, and a new <code style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;color:var(--accent);font-size:0.8rem">issue</code> publiceras efter granskning.</li>
+>>>>>>> dd2f18d282ed742c76e6736e60160e2ade4913e2
         </ul>
       </div>
             <div class="nav-btns"><button class="btn btn-secondary" data-go="5" onclick="navigateTo(5)">← Back</button><button class="btn btn-primary" data-complete-from="6" data-go="7" onclick="completeAndGoto(6,7)">Next: IETP &amp; Tools →</button></div>
@@ -1215,7 +1220,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
       </div>
       <div class="compare-grid">
         <div class="compare-card old">
-          <div class="ch">📄 Pappers-/PDF-manual</div>
+          <div class="ch">📄 Paper-/PDF-manual</div>
           <ul>
             <li>Static — difficult to update</li>
             <li>No filtering by configuration</li>
@@ -1423,7 +1428,7 @@ min-height:76px !important;padding:10px 11px !important;border-radius:14px !impo
           <div class="quiz-options" id="pf6-opts">
             <div class="quiz-opt" onclick="provAnswer(this,'pf6',false)"><span class="opt-letter">A</span> A new project starting</div>
             <div class="quiz-opt" onclick="provAnswer(this,'pf6',false)"><span class="opt-letter">B</span> The technical writer changing employer</div>
-            <div class="quiz-opt" onclick="provAnswer(this,'pf6',true)"><span class="opt-letter">C</span> En godkänd ECP (Engineering Change Proposal)</div>
+            <div class="quiz-opt" onclick="provAnswer(this,'pf6',true)"><span class="opt-letter">C</span> An approved ECP (Engineering Change Proposal)</div>
             <div class="quiz-opt" onclick="provAnswer(this,'pf6',false)"><span class="opt-letter">D</span> A LORA analysis being initiated</div>
           </div>
           <div class="quiz-feedback" id="pf6-fb"></div>
